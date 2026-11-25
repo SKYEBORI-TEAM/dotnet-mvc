@@ -1,4 +1,3 @@
-dockerfile
 FROM ://microsoft.com AS build
 WORKDIR /src
 COPY . .
