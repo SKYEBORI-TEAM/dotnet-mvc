@@ -2,7 +2,7 @@ name: Container Package Pipeline
 
 on:
   workflow_run:
-    workflows: ["DOTNET_MVC_CI_Pipeline"] # Triggers automatically when your build pipeline passes
+    workflows: ["Container Package Pipeline"] # Triggers automatically when your build pipeline passes
     types:
       - completed
 
