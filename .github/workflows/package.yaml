@@ -33,4 +33,4 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: |
-          ghcr.io/${{ github.repository }}/mywebapp:latest
+          ghcr.io/skyebori-team/dotnet-mvc/mywebapp:latest
